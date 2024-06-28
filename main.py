@@ -4,7 +4,11 @@ def main():
     Code Your Program here
     ########################################
     """
-
+    while True:
+        try:
+            number = int(input("Enter a number"))
+        except ValueError:
+            
     ########################################
     # Do not delete the return statement
     ########################################
