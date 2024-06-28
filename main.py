@@ -8,6 +8,8 @@ def main():
         try:
             number = int(input("Enter a number"))
         except ValueError:
+            print("Input must be numeric.")
+            continue
             
     ########################################
     # Do not delete the return statement
